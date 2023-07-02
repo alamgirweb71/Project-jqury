@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Bootstrap_Four_Practice</title>
+	<!-- fonts linking -->
+	<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;600;700&family=Righteous&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+	<!-- font awsome css link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+	<!--bootstrap css -->
+	<link rel="stylesheet" href="./css_fils/vendor/bootstrap.min.css">
+	<!-- venoBox css for popup -->
+	<link rel="stylesheet" href="./css_fils/venobox.min.css">
+	<!-- slic slider css -->
+	<link rel="stylesheet" href="./css_fils/slick.css">
+	<!-- for aos slider -->
+	<link rel="stylesheet" href="./css_fils/aos.css">
+	<!-- custom css -->
+	<link rel="stylesheet" href="./css_fils/main.css"> </head>
+
+<body>
+	<!-- ==================================
+					Nav Bar Start
+	================================== -->
+	
+<div class="nav-bar-wrapper">
+	<div class="container">
+
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand" href="#"> <img src="./image/nav-section/Logo.svg" alt=""> </a>
+			<button class="navbar-toggler" 
+			type="button" data-toggle="collapse" 
+			data-target="#navbarSupportedContent" 
+			aria-controls="navbarSupportedContent" 
+			aria-expanded="false" aria-label="Toggle navigation"> 
+			<span class="navbar-toggler-icon"></span> </button>
+			
+			<!-- mobile nav background -->
+			<!-- <div class="">
+				<div class="cross-icon">
+					<a href="javascript:void(0)"> <i class="fa-solid fa-xmark"> </i> </a>
+				</div>
+			</div> -->
+	
+			<!-- mobile nav background end -->
+	
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav m-auto">
+					<li class="nav-item active"> <a class="nav-link nav-active" href="#">Home </a> </li>
+					<li class="nav-item nav-item-decoration"> <a class="nav-link nav-link-decoration" href="#"> Profile </a> </li>
+					<li class="nav-item nav-item-decoration"> <a class="nav-link nav-link-decoration" href="#"> Courses </a> </li>
+					<li class="nav-item nav-item-decoration"> <a class="nav-link nav-link-decoration" href="#"> Contact </a> </li>
+				</ul>
+				<button class="btn  my-2 my-sm-0" type="submit">Search</button>
+			</div>
+		</nav>
+	
+		</div>
+</div>
+
+	<!-- nav bar end -->
+
+	<!-- ==============================
+	       banner section start
+	============================== -->
+
+	<div class="banner-section">
+		<div class="container">
+			<div class="banner-slider">
+				<div class="banner-wraper d-flex">
+					<div class="banner-left col-lg-5">
+						<h1 class="banner-text"> Discover best classes for the best  learning</h1>
+						<p class="banner-description"> We designed Connections Academy to give students all across the nation a tuition-free online public school that lets them learn. </p>
+						<button class="btn" type="button"> Get Started </button>
+						<p class="learnmore"> Not sure when to start? <a href="#">  Learn more </a> </p>
+					</div>
+					<div class="banner-right col-lg-6 offset-xl-1"> <img src="./image/Banner-section/img_card_right.png" alt="img" class="w-100 img-fluid"> </div>
+				</div>
+				<div class="banner-wraper d-flex">
+					<div class="banner-left col-xl-8">
+						<h1 class="banner-text"> Educal - Education
+							HTML5 yellow-shape Template + RTL </h1>
+						<p class="banner-description"> We designed Connections Academy to give students all across the nation a tuition-free online public school that lets them learn. </p>
+						<button class="btn" type="button"> Get Started </button>
+						<p class="learnmore"> Not sure when to start? <a href="#">  Learn more </a> </p>
+					</div>
+					<div class="banner-right col-lg-4"> <img src="./image/Banner-section/hero.png" alt="img" class="w-100 img-fluid"> </div>
+				</div>
+				
+				<div class="banner-wraper d-flex">
+					<div class="banner-left col-lg-5">
+						<h1 class="banner-text"> Discover best classes for the best  learning</h1>
+						<p class="banner-description"> We designed Connections Academy to give students all across the nation a tuition-free online public school that lets them learn. </p>
+						<button class="btn" type="button"> Get Started </button>
+						<p class="learnmore"> Not sure when to start? <a href="#">  Learn more </a> </p>
+					</div>
+					<div class="banner-right col-lg-6 offset-xl-1"> <img src="./image/Banner-section/Slide_pic02.jpg" alt="img" class="w-100 img-fluid"> </div>
+				</div>
+				
+				
+			</div>
+
+		</div>
+	</div>
+	<!-- banner_section_end -->
+
+	<!-- ========================================
+					add section_strat
+	======================================== -->
+
+	
+	<div class="container add-section" data-aos="fade-up"
+	data-aos-duration="3000">
+		<div class="row d-flex add-section-parent">
+			<div class="col-xl-3 mr-60px">
+				<h2 class="add-number"> 400+</h2>
+				<p class="add-description"> Universities worldwide that partner with us</p>
+			</div>
+			<div class="add-img col-xl-2"> <img src="./image/Add-section/mcgril.svg" alt="" class="w-100 img-fluid"> </div>
+			<div class="add-img col-xl-2"> <img src="./image/Add-section/amity.svg" alt="" class="w-100 img-fluid"> </div>
+			<div class="add-img  col-xl-2"> <img src="./image/Add-section/houston.svg" alt="" class="w-100 img-fluid"> </div>
+			<div class="add-img  col-xl-2"> <img src="./image/Add-section/playmouth.svg" alt="" class="w-100 img-fluid"> </div>
+		</div>
+	</div>
+	<!-- add section end-->
+	<!-- ===============================================
+		Online_public_school_start 
+	============================================== -->
+
+	
+	<div class="container online-scool ">
+		<!-- online public school left -->
+		<div class="row">
+			<div class="online-school-left col-xl-4 position-relative"  data-aos="fade-right"
+			data-aos-duration="3000"
+		    data-aos-easing="ease-in-sine">
+				<div class="online-school-left-img ">
+					<div class="lef-image"> <img src="./image/online_public_school_section/left-img.png" alt="" class="w-100 img-fluid bg-left"> </div>
+					<div class="online-school-left-card m-auto text-center position-absolute ">
+						<span class="online-school-left-card-heading counter"> 5,65,470 </span> <span> +</span>
+						<p class="online-school-left-card"> Peoples are learning</p>
+						<div class="learningDiv-wrapper d-flex ">
+							<div class="learningDiv"> <img src="./image/online_public_school_section/left-card-image/pic01.svg" alt=""> </div>
+							<div class="learningDiv"> <img src="./image/online_public_school_section/left-card-image/pic-2.png" alt=""> </div>
+							<div class="learningDiv"> <img src="./image/online_public_school_section/left-card-image/pic-3.png" alt=""> </div>
+							<div class="learningDiv"> <img src="./image/online_public_school_section/left-card-image/pic-4.png" alt=""> </div>
+							<div class="learningDiv learningDiv-bg">
+								<h2 class="learningDiv_text"> 3+ </h2> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- online public school right -->
+			<div class="online-school-right col-xl-7 offset-xl-1" data-aos="fade-left"
+		     data-aos-duration="3000"
+		    data-aos-easing="ease-in-sine">
+				<h2 class="online-school-right-header">  HOW OUR ONLINE PUBLIC SCHOOL WORKS </h2>
+				<div class="online-school-right-iconWrapper d-flex flex-wrap  ">
+					<div class="online-school-right-icons">
+						<div class="online-iconBg"> <img src="./image/online_public_school_section/video_icon.svg" alt="" class="icon-padding"> </div>
+						<div class="online-text">
+							<h6 class="online-school-right-icons-head"> VIRTUAL LEARNING </h6>
+							<p class="online-school-right-icons_description"> The only costs are for standard school supplies and voluntary field trips.</p>
+						</div>
+					</div>
+					<div class="online-school-right-icons">
+						<div class="online-iconBg"> <img src="./image/online_public_school_section/education_icon.svg" alt="" class="icon-padding"> </div>
+						<div class="online-text">
+							<h6 class="online-school-right-icons-head"> VIRTUAL LEARNING </h6>
+							<p class="online-school-right-icons_description"> The only costs are for standard school supplies and voluntary field trips.</p>
+						</div>
+					</div>
+					<div class="online-school-right-icons">
+						<div class="online-iconBg"> <img src="./image/online_public_school_section/open_book_icon.svg" alt="" class="icon-padding"> </div>
+						<div class="online-text">
+							<h6 class="online-school-right-icons-head"> VIRTUAL LEARNING </h6>
+							<p class="online-school-right-icons_description"> The only costs are for standard school supplies and voluntary field trips.</p>
+						</div>
+					</div>
+					<div class="online-school-right-icons">
+						<div class="online-iconBg"> <img src="./image/online_public_school_section/social-enter.svg" alt="" class="icon-padding"> </div>
+						<div class="online-text">
+							<h6 class="online-school-right-icons-head"> VIRTUAL LEARNING </h6>
+							<p class="online-school-right-icons_description"> The only costs are for standard school supplies and voluntary field trips.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- online Public school end -->
+	<!-- ==============================================
+	school Works start
+	============================================== -->
+
+	<div class="school-work-section">
+		<div class="school-work-section-header">
+			<div class="container school-work-max-width">
+				<div class="row d-flex ">
+					<div class="col-xl-6">
+						<h2 class="school-work-heading"> How our online public school works </h2> </div>
+					<div class="col-xl-3 offset-xl-3">
+						<button type="button" class="btn viwAll-btn-bg"> View all courses </button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class=" container cart-section ">
+			<div class="cart-wrap row">
+				<div class="col-xl-4"> <img src="./image/cart-section/img_one.svg" alt="">
+					<h5 class="cart-heading"> Hands-On Python & R In Data Science </h5>
+					<div class="cart-count d-flex justify-content-evenly">
+						<div class="cart-numbers cart-mr-11"> <img src="./image/cart-section/icon/User_icon.svg" alt="icon"> <span class="numbers"> 1,45,690</span></div>
+						<div class="cart-numbers"> <img src="./image/cart-section/icon/Time_Circle.svg" alt="icon"> <span class="numbers"> 4 monts</span></div>
+					</div>
+					<button type="button" class="btn cart-btn-bg"> <img src="./image/cart-section/btn/Buy.svg" alt=""> Add to Cart </button>
+				</div>
+				<div class="col-xl-4"> <img src="./image/cart-section/img_two.svg" alt="">
+					<h5 class="cart-heading"> Science and Machine Learning Bootcamp </h5>
+					<div class="cart-count d-flex justify-content-evenly">
+						<div class="cart-numbers cart-mr-11"> <img src="./image/cart-section/icon/User_icon.svg" alt="icon"> <span class="numbers"> 1,45,690</span></div>
+						<div class="cart-numbers"> <img src="./image/cart-section/icon/Time_Circle.svg" alt="icon"> <span class="numbers"> 4 monts</span></div>
+					</div>
+					<button type="button" class="btn cart-btn-bg"> <img src="./image/cart-section/btn/Buy.svg" alt=""> Add to Cart </button>
+				</div>
+				<div class="col-xl-4"> <img src="./image/cart-section/img_three.svg" alt="">
+					<h5 class="cart-h-three"> The Python Mega Course:Real Applications </h5>
+					<div class="cart-count d-flex justify-content-evenly">
+						<div class="cart-numbers cart-mr-11"> <img src="./image/cart-section/icon/User_icon.svg" alt="icon"> <span class="numbers"> 1,45,690</span></div>
+						<div class="cart-numbers"> <img src="./image/cart-section/icon/Time_Circle.svg" alt="icon"> <span class="numbers"> 4 monts</span></div>
+					</div>
+					<button type="button" class="btn cart-btn-bg cart-btn-bg-active"> <img src="./image/cart-section/btn/Buy.svg" alt=""> Add to Cart </button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- School work end -->
+<!-- ==========================================
+			Through Education start
+========================================== -->
+
+	<div class="container through-education-section">
+		<div class="row">
+			<div class=" col-xl-6 through-education-left">
+				<h2 class="through-education-heading"> Transform your life though education </h2>
+				<p class="through-education-description"> Ariel Hocsman launched a new career in software development by taking courses on Besnik. What will you be able to do? </p>
+				<button type="button" class="btn through-edu-btn"> Get Started </button>
+			</div>
+			<div class="col-xl-6 through-education-right">
+				<div class="play-card ">
+					<div class="playcard-bg">
+						<div class="play-card-img">
+						<a class="video-play"  data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/watch?v=rPZdWuOPaHY">  <img src="./image/through-education/education-right.png" alt="image" class="w-100 img-fluid "> <i class="fa fa-play-circle circle-color circle-width" aria-hidden="true"></i> </a>
+						</div>
+					</div>
+					<div class="lecture-cards d-flex">
+						<div class="lecture-card-bg"> <img src="./image/through-education/lecture-img/lecture-01.png" alt="image" class="w-100 img-fluid card-image">
+							<h5 class="lecture-card-title"> Lecture 2</h5> </div>
+						<div class="lecture-card-bg"> <img src="./image/through-education/lecture-img/lecture-2.png" alt="image" class="w-100 img-fluid card-image">
+							<h5 class="lecture-card-title"> Lecture 3</h5> </div>
+						<div class="lecture-card-bg"> <img src="./image/through-education/lecture-img/lecture-3.png" alt="image" class="w-100 img-fluid card-image">
+							<h5 class="lecture-card-title"> Lecture 4</h5> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Through Education end -->
+	<!-- =============================================
+		slider section start
+	=========================================== -->
+
+	
+	<div class="container slider-section">
+		<div class=" row  slider-head">
+			<div class="col-xl-6 slider-heading">
+				<h2 class="slider-heading-text">Transform your life through education </h2> </div>
+			<div class="col-xl-2 offset-xl-4  slider-arrow"> <img src="./image/slider-images/slider-icon/arrow-right.svg" alt="arrow" class="slider-mr-34"> <img src="./image/slider-images/slider-icon/arrow-left.svg" alt="arrow" class=""> </div>
+		</div>
+		<!-- slider section left -->
+		<div class="row d-flex">
+			<div class=" col-lg-6 slider-left">
+				<div class="slider-left slider-text">
+					<h4 class="slider-head-txt"> <q class="slider-right slider-heading"> Love mathematics because of Besnik Academy </q> </h4>
+					<div class="slider-head-description"> <q class="slider-description"> "The curriculum was directly targeted toward applied techniques with high profile projects – real datasets with industry partners. It helped me achieve my career transition goal.</q></div>
+				</div>
+				<div class="slider-review d-flex">
+					<div class="slider-left review-persion"> <img src="./image/slider-images/wilson-thai.png" alt="image"> </div>
+					<div class="review-text">
+						<h5 class="review-persion-name"> Wilson Thai</h5>
+						<p class="review-persion-location"> Ontario, Canada </p> <span class="review-mark"> 
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          
+                        </span> </div>
+				</div>
+			</div>
+
+			<!-- slider section right -->
+			<div class="col-xl-6 slider-right">
+				<div class="slider-right slider-text">
+					<h4 class="slider-head-txt"> <q class="slider-right slider-heading">There is so much to see and do all over world</q> </h4>
+					<div class="slider-head-description"> <q class="slider-description">The curriculum was directly targeted toward applied techniques with high profile projects – real datasets with industry partners. It helped me achieve my career transition goal. </q> </div>
+				</div>
+				<div class="slider-review d-flex">
+					<div class="review-persion"> <img src="./image/slider-images/millena-blamer.svg" alt="image"> </div>
+					<div class="review-text">
+						<h5 class="review-persion-name"> Milena Belmar </h5>
+						<p class="slider-right review-persion-location"> Argentina </p> <span class="review-mark">  
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          
+                        </span> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- slider section end -->
+<!-- ===================================================
+plan section start
+=================================================== -->
+	
+	<div class="container plan">
+		<div class="row plan-max-width align-content-center p-h-p-b-60">
+			<div class="col-xl-7">
+				<h2 class="plan-head-mw"> Transform your life through education</h2> </div>
+			<div class="col-xl-3 offset-xl-2 b-ml-10">
+				<button type="button" class="btn viwAll-btn-bg"> Upgrade now </button>
+			</div>
+		</div>
+		<!-- plan card start -->
+		<div class="plan-card-wrapper">
+			<div class="row justify-content-between">
+				<div class="plan-card-bg plan-bg-1">
+					<div class="plan-card-title p-c-t-color-1 text-center"> Regular </div>
+					<div class="plan-card-price text-center"> <span class="doller"> $ </span> <span class="doller-rate"> 65</Span> </div>
+					<div class="plan-card-plan m-auto">
+						<ul class="plan-list-one">
+							<li> 1 Day Event </li>
+							<li> 1 Speaker</li>
+							<li> Interaction Sessions</li>
+							<li> 35 Classes</li>
+						</ul>
+					</div>
+					<div class="plan-button text-center">
+						<button type="button" class="btn-byplan btn-byplan-1"> Buy Plan </button>
+					</div>
+				</div>
+				<div class="plan-card-bg plan-bg-2 ">
+					<div class="plan-card-title p-c-t-color-2 text-center"> Regular </div>
+					<div class="plan-card-price text-center"> <span class="doller"> $ </span> <span class="doller-rate"> 65</Span> </div>
+					<div class="plan-card-plan m-auto">
+						<ul class="plan-list-two">
+							<li> 1 Day Event </li>
+							<li> 1 Speaker</li>
+							<li> Interaction Sessions</li>
+							<li> 35 Classes</li>
+						</ul>
+					</div>
+					<div class="plan-button text-center">
+						<button type="button" class="btn-byplan btn-byplan-2"> Buy Plan </button>
+					</div>
+				</div>
+				<div class="plan-card-bg plan-bg-3">
+					<div class="plan-card-title p-c-t-color-3 text-center"> Regular </div>
+					<div class="plan-card-price text-center"> <span class="doller"> $ </span> <span class="doller-rate"> 65</Span> </div>
+					<div class="plan-card-plan m-auto">
+						<ul class="plan-list-three">
+							<li> 1 Day Event </li>
+							<li> 1 Speaker</li>
+							<li> Interaction Sessions</li>
+							<li> 35 Classes</li>
+						</ul>
+					</div>
+					<div class="plan-button text-center">
+						<button type="button" class="btn-byplan btn-byplan-3"> Buy Plan </button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- plan section end -->
+	<!-- =====================================================
+		footer section start
+	==================================================== -->
+
+	<footer>
+		<div class="container">
+			<div class=" row fotter-section">
+				<div class="col-xl-4">
+					<div class="footer-logo"> <img src="./image/nav-section/Logo.svg" alt=""> </div>
+					<p class="footer-description fotter-max-width"> Our motto to fulfill customer demand by making them satisfied with growing their business.</p>
+				</div>
+				<div class="col-xl-2 offset-xl-1 fotter-about">
+					<ul class="">
+						<li class="fotter-list-head"> About </li>
+						<li> About Us </li>
+						<li> Features </li>
+						<li> News </li>
+						<li> Careers </li>
+						<li> FAQ </li>
+					</ul>
+				</div>
+				<div class="col-xl-2  fotter-support">
+					<ul class="">
+						<li class="fotter-list-head"> Support </li>
+						<li> Account </li>
+						<li> Support Center</li>
+						<li> Feedback </li>
+						<li> Contact Us </li>
+						<li> Accesbility</li>
+					</ul>
+				</div>
+				<div class="col-xxl-1 offset-xl-1 ">
+					<h6 class="fotter-list-head"> Get our app </h6>
+					<div class="apps"> <img src="./image/google_play/google-play.png" alt=""> </div>
+					<div> <img src="./image/google_play/app-store.png" alt=""> </div>
+				</div>
+			</div>
+	</footer>
+	<div class="Copyright">
+		<div class="container copyright-section "> <span class="copyright-text"> Copyright Besnik 2021 All rights reserved. </span> </div>
+	</div>
+	<!-- footer section end -->
+<!-- nav for jquery -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"> </script>
+	<!-- jquery js -->
+	
+	<!-- <script src="./js_fills/jquery.slim.min.js"></script> -->
+	<!-- proper js -->
+	<script src="./js_fills/popper.min.js"></script>
+	<!-- bootstrap js -->
+	<script src="./js_fills/bootstrap.min.js"> </script>
+	<!-- slik slider js -->
+	<script src="./js_fills/slick.min.js"></script>
+	<!-- venobox for popup -->
+	<script src="./js_fills/venobox.min.js"></script>
+	<!-- waypoint for counter -->
+	<script src="./js_fills/waypoints.min.js"></script>
+	<script src="./js_fills/jquery.counterup.min.js"></script>
+	<script src="./js_fills/aos.js"></script>
+	<!-- custom js -->
+	<script src="./js_fills/customJS/custom.js"></script>
+	
+</body>
+
+</html>
